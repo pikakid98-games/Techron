@@ -1,0 +1,114 @@
+Display Name = "Abadorian Town"
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["I Just Woke Up"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked... Maybe I Shoud Get Erica's"])
+    ShowText(["Dad's Lock Pick... She Lives Kinda Right"])
+    ShowText(["Next To Me"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["Err... Hi Erica"])
+    ShowTextAttributes(["Actor1", 5, 0, 2])
+    ShowText(["What Do You Want Eric?"])
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["I Just Wandered If I Could Borrow Your"])
+    ShowText(["Dad's Lockpick"])
+    ShowTextAttributes(["Actor1", 5, 0, 2])
+    ShowText(["Why Exactly Would You Want That?"])
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["Err..."])
+    ShowChoices([["To Go Into The Warehouse", "My Lock Is Busted Again", "I Can't Find My Own"], 0])
+    When([0, "To Go Into The Warehouse"])
+      ShowTextAttributes(["Actor1", 5, 0, 2])
+      ShowText(["The Warehouse?"])
+      ShowTextAttributes(["Eric", 0, 0, 2])
+      ShowText(["Yeah... You Know... The Warehouse"])
+      ShowTextAttributes(["Actor1", 5, 0, 2])
+      ShowText(["Listen Here's A Deal... I Hid The Lock"])
+      ShowText(["Pick Somewhere Where You Wll Never"])
+      ShowText(["Find It... If You Can Find It... Well..."])
+      ShowTextAttributes(["Eric", 0, 0, 2])
+      ShowText(["It's Mine?"])
+      ShowTextAttributes(["Actor1", 5, 0, 2])
+      ShowText(["To Borrow..."])
+      ShowTextAttributes(["Eric", 0, 0, 2])
+      ShowText(["Thanks Erica"])
+      TransferPlayer([0, 2, 39, 12, 0, 0])
+      Empty([])
+
+    When([1, "My Lock Is Busted Again"])
+      ShowTextAttributes(["Actor1", 5, 0, 2])
+      ShowText(["Try Harder Next Time, Douchbag"])
+      Empty([])
+
+    When([2, "I Can't Find My Own"])
+      ShowTextAttributes(["Actor1", 5, 0, 2])
+      ShowText(["I Don't See Why You Would Need It"])
+      Empty([])
+
+    ChoicesEnd([])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["Actor2", 7, 0, 2])
+    ShowText(["I'M BUSY!!!!"])
+    Empty([])

@@ -1,0 +1,10 @@
+Item 1
+Name = "Alice's Letter"
+Description = "It's A Letter From Alice To Her Sister"
+Note = ""
+
+Item 2
+Name = "Lock Pick"
+Description = "A Professional Tool Used To Pick Locks. It Looks\r\nHomemade"
+Note = ""
+

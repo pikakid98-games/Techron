@@ -1,0 +1,104 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["I Just Woke Up"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked... Maybe I Shoud Get Erica's"])
+    ShowText(["Dad's Lock Pick... She Lives Kinda Right"])
+    ShowText(["Next To Me"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["Actor1", 5, 0, 2])
+    ShowText(["..."])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["Hello Alice"])
+    ShowTextAttributes(["Actor2", 7, 0, 2])
+    ShowText(["WHAT!!!"])
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["I Just Want To Borrow Something To"])
+    ShowText(["Remove That Stone Over There"])
+    ShowTextAttributes(["Actor2", 7, 0, 2])
+    ShowText(["... Then I Require A Favour"])
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["*Sigh*"])
+    ShowTextAttributes(["Actor2", 7, 0, 2])
+    ShowText(["Oh It's Simple... Just Hand This Note"])
+    ShowText(["Over To My Younger Sister"])
+    PlaySE(["RPG::SE(@name=\"Chime2\", @pitch=100, @volume=80)"])
+    ChangeItems([1, 0, 0, 1])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You Got An Item"])
+    ShowText([" "])
+    ShowText(["\\I[235] Alice's Letter"])
+    ShowTextAttributes(["Actor2", 7, 0, 2])
+    ShowText(["She Lives In The Light Green House"])
+    TransferPlayer([0, 4, 7, 32, 0, 2])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Stuck"])
+    Empty([])

@@ -1,0 +1,25 @@
+Class 1
+Name = ""
+Description = ""
+Note = ""
+
+Class 2
+Name = "Robot Head"
+Description = ""
+Note = ""
+
+Class 3
+Name = "Robot Head And Torso"
+Description = ""
+Note = ""
+
+Class 4
+Name = "Robot Head, Torso And Arms"
+Description = ""
+Note = ""
+
+Class 5
+Name = "Sentient Robot"
+Description = ""
+Note = ""
+

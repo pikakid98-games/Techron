@@ -1,0 +1,40 @@
+Actor 1
+Nickname = ""
+Character Name = "Eric"
+Face Name = "Eric"
+Name = "Eric"
+Description = "An Ordinary Guy"
+Note = ""
+
+Actor 2
+Nickname = ""
+Character Name = "Eric (Robot){Head Only}"
+Face Name = "Eric (Robot)"
+Name = "Eric"
+Description = "A Robotic Clone Of Eric. You Are But A Head\r\nHowever."
+Note = ""
+
+Actor 3
+Nickname = ""
+Character Name = "Eric (Robot){Head And Body}"
+Face Name = "Eric (Robot)"
+Name = "Eric"
+Description = "A Robotic Clone Of Eric. You Are But A Head On A\r\nTorso However."
+Note = ""
+
+Actor 4
+Nickname = ""
+Character Name = "Eric (Robot){Head Body And Arms}"
+Face Name = "Eric (Robot)"
+Name = "Eric"
+Description = "A Robotic Clone Of Eric. You Are But A Head On A\r\nTorso With Arms However."
+Note = ""
+
+Actor 5
+Nickname = ""
+Character Name = "Eric (Robot)"
+Face Name = "Eric (Robot)"
+Name = "Eric"
+Description = "A Robotic Clone Of Eric. You Are Complete And\r\nReady For Battle."
+Note = ""
+

@@ -1,0 +1,89 @@
+Display Name = ""
+Parallax Name = ""
+Note = ""
+
+CommonEvent 1
+Name = "EV001"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["I Just Woke Up"])
+    Empty([])
+
+CommonEvent 2
+Name = "EV002"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked... Maybe I Shoud Get Erica's"])
+    ShowText(["Dad's Lock Pick... She Lives Kinda Right"])
+    ShowText(["Next To Me"])
+    Empty([])
+
+CommonEvent 3
+Name = "EV003"
+
+  Page 0
+    Empty([])
+
+CommonEvent 4
+Name = "EV004"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 5
+Name = "EV005"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 6
+Name = "EV006"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 7
+Name = "EV007"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Locked"])
+    Empty([])
+
+CommonEvent 8
+Name = "EV008"
+
+  Page 0
+    ShowTextAttributes(["Actor1", 5, 0, 2])
+    ShowText(["..."])
+    Empty([])
+
+CommonEvent 9
+Name = "EV009"
+
+  Page 0
+    ShowTextAttributes(["Actor2", 7, 0, 2])
+    ShowText(["I'M BUSY!!"])
+    Empty([])
+
+CommonEvent 10
+Name = "EV010"
+
+  Page 0
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["This Stone Seems Loose... I Wonder If"])
+    ShowText(["This Is Where Erica Hid That Lock Pick"])
+    ShowTextAttributes(["", 0, 0, 2])
+    ShowText(["You Attempt To Remove It"])
+    ShowTextAttributes(["Eric", 0, 0, 2])
+    ShowText(["It's Stuck"])
+    TransferPlayer([0, 3, 21, 31, 0, 2])
+    Empty([])
